@@ -39,11 +39,24 @@
 
 <p>In addition, drug treatment of hypertension, diabetes and high blood lipids are necessary to reduce cardiovascular risk and prevent heart attacks and strokes among people with these conditions.</p>
 
-<h4></h4>
-<h4></h4>
-<h4></h4>
-<h4></h4>
-<h4></h4>
+<h4>0.2.1. Heart Attack</h4>
+<p>A heart attack occurs when the blood flow to a part of the heart is blocked by a blood clot, fat or other substances. If this clot cuts off the blood flow completely, the part of the heart muscle supplied by that artery begins to die, if the blood flow is interrupted can damage or destroy part of heart muscle.</p>
+<p>The medications and lifestyle changes that your doctor recommends may vary according to how badly your heart was damaged, and to what degree of heart disease caused the heart attack.</p>
+
+<h4>0.2.2. Heart Failure</h4>
+<p>Occurs when the heart muscle doesn't pump blood as well as it should. When this happens, blood often backs up and fluid can build up in the lungs, causing shortness of breath. In heart failure, the main pumping chambers of the heart (the ventricles) may become stiff and not fill properly between beats. In some people, the heart muscle may become damaged and weakened. The ventricles may stretch to the point that the heart can't pump enough blood through the body.</p>
+
+<p>One way to prevent heart failure is to prevent and control conditions that can cause it, such as coronary artery disease, high blood pressure, diabetes and obesity.</p>
+
+<h4>0.2.3. Stroke</h4>
+<p></p>
+
+<h4>0.2.4. Arrhythmia</h4>
+<p></p>
+
+<h4>0.2.5. Heart Valve Problems</h4>
+<p></p>
+
 
 <p>The Dataset Base <a href='https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset'>Cardiovascular Disease</a>.</p>
 
