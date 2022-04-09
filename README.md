@@ -1,1 +1,1 @@
-# Cardio-Catch-Diseases
+# Cardio Catch Diseases
