@@ -37,6 +37,8 @@
 
 <p>The most important behavioural risk factors of heart disease and stroke are unhealthy <strong>diet</strong>, <strong>physical inactivity</strong>, <strong>tobacco</strong> use and harmful use of <strong>alcohol</strong>. The effects of behavioural risk factors may show up in individuals as raised blood pressure, raised blood glucose, raised blood lipids, and overweight and obesity. These “intermediate risks factors” can be measured in primary care facilities and indicate an increased risk of heart attack, stroke, heart failure and other complications.</p>
 
+<p>In addition, drug treatment of hypertension, diabetes and high blood lipids are necessary to reduce cardiovascular risk and prevent heart attacks and strokes among people with these conditions.</p>
+
 <h4></h4>
 <h4></h4>
 <h4></h4>
