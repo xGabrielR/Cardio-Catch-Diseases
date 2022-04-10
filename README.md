@@ -111,6 +111,17 @@
 <h2>x. References</h2>
 <hr>
 
+https://www.cdc.gov/heartdisease/about.htm
+https://pubmed.ncbi.nlm.nih.gov/7285104/
+https://www.mayoclinic.org/diseases-conditions/heart-valve-disease/symptoms-causes/syc-20353727
+https://www.mayoclinic.org/diseases-conditions/heart-disease/symptoms-causes/syc-20353118
+https://www.mayoclinic.org/diseases-conditions/heart-failure/symptoms-causes/syc-20373142
+
 <ul>
   <li><a href='https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)'>Cardiovascular diseases</a></li>
+  <li><a href='https://www.cdc.gov/heartdisease/about.htm'>Heart diseases</a></li>
+  <li><a href='https://pubmed.ncbi.nlm.nih.gov/7285104/'>Negative Diastolic Pressure</a></li>
+  <li><a href='https://www.mayoclinic.org/diseases-conditions/heart-valve-disease/symptoms-causes/syc-20353727'>Heart Valve</a></li>
+  <li><a href='https://www.mayoclinic.org/diseases-conditions/heart-disease/symptoms-causes/syc-20353118'>Heart diseases</a></li>
+  <li><a href='https://www.mayoclinic.org/diseases-conditions/heart-failure/symptoms-causes/syc-20373142'>Heart Failure</a></li>
 </ul>
