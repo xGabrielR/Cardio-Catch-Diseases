@@ -76,13 +76,23 @@
 <p>Arrhythmia refers to an abnormal heart rhythm. There are various types of arrhythmias, The heart can beat too slow, too fast or irregularly, an arrhythmia can affect how well your heart works. With an irregular heartbeat, your heart may not be able to pump enough blood to meet your body’s needs</p>
 <ul>
   <li>Bradycardia</li>
-  <p>Heart rate that’s too slow, is when the heart rate is less than 60 beats per minute..</p>
+  <p>Heart rate that’s too slow, is when the heart rate is less than 60 beats per minute.</p>
   <li>Tachycardia</li>
   <p>Heart rate that’s too fast, refers to a heart rate of more than 100 beats per minute.</p>
 </ul>
 
 <h3>0.3. Blood Pressure</h3>
 
+![blood](https://user-images.githubusercontent.com/75986085/162626318-0e407579-cbc1-4378-9a8d-4a0df614a69b.png)
+
+<p>The blood pressure is other important thing to check heart health, itsn very important to check the systolic and diastolic, like a fraction of blood pressure on mm Hg ( 120 systolic / 60 diastolic ).</p>
+
+<ul>
+  <li>Systolic Pressure</li>
+  <p>The top number refers to the amount of pressure in your arteries during the contraction of your heart muscle.</p>
+  <li>Diastolic Pressure</li>
+  <p>The bottom number refers to your blood pressure when your heart muscle is between beats.</p>
+</ul>
 
 <p>The Dataset Base <a href='https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset'>Cardiovascular Disease</a>.</p>
 
