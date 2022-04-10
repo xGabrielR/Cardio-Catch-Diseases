@@ -45,17 +45,31 @@
 
 <h4>0.2.2. Heart Failure</h4>
 <p>Occurs when the heart muscle doesn't pump blood as well as it should. When this happens, blood often backs up and fluid can build up in the lungs, causing shortness of breath. In heart failure, the main pumping chambers of the heart (the ventricles) may become stiff and not fill properly between beats. In some people, the heart muscle may become damaged and weakened. The ventricles may stretch to the point that the heart can't pump enough blood through the body.</p>
-
 <p>One way to prevent heart failure is to prevent and control conditions that can cause it, such as coronary artery disease, high blood pressure, diabetes and obesity.</p>
 
-<h4>0.2.3. Stroke</h4>
-<p></p>
+<h4>0.2.3. Heart Valve Problems</h4>
+<p>Your heart has four valves that keep blood flowing in the correct direction. In some cases, one or more of the valves don't open or close properly. This can cause the blood flow through your heart to your body to be disrupted.</p>
+<ul>
+  <li>Regurgitation.</li>
+  <p>The valve flaps don't close properly, causing blood to leak backward in your heart. This commonly occurs due to valve flaps bulging back, a condition called prolapse.</p>
+  <li>Stenosis.</li>
+  <p>The valve flaps become thick or stiff and possibly fuse together. This results in a narrowed valve opening and reduced blood flow through the valve.</p>
+  <li>Atresia.</li>
+  <p>The valve isn't formed, and a solid sheet of tissue blocks the blood flow between the heart chambers.</p>
+</ul>
 
-<h4>0.2.4. Arrhythmia</h4>
-<p></p>
+<h4>0.2.4. Stroke</h4>
+<p>Have two types of Stroke:</p>
+<ul>
+  <li>Ischemic stroke</li>
+  <p>It happens when the brain's blood vessels become narrowed or blocked, causing severely reduced blood flow (ischemia). Are caused by fatty deposits that build up in blood vessels or by blood clots or other debris that travel through the bloodstream, most often from the heart, and lodge in the blood vessels in the brain.</p>
+  <li>Hemorrhagic stroke</li>
+  <p>Occurs when a blood vessel within the brain bursts. This is most often caused by uncontrolled hypertension (high blood pressure).</p>
+</ul>
 
-<h4>0.2.5. Heart Valve Problems</h4>
-<p></p>
+<h4>0.2.5. Arrhythmia</h4>
+<p> Arrhythmia refers to an abnormal heart rhythm. There are various types of arrhythmias.</p>
+<p>The heart can beat too slow, too fast or irregularly.Bradycardia, or a heart rate that’s too slow, is when the heart rate is less than 60 beats per minute. Tachycardia, or a heart rate that’s too fast, refers to a heart rate of more than 100 beats per minute.An arrhythmia can affect how well your heart works. With an irregular heartbeat, your heart may not be able to pump enough blood to meet your body’s needs.</p>
 
 
 <p>The Dataset Base <a href='https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset'>Cardiovascular Disease</a>.</p>
