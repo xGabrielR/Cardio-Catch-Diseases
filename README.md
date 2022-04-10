@@ -8,6 +8,11 @@
 - [0. Bussiness Problem](#0-bussiness-problem)
   - [0.1. What is a Service](#01-what-is-a-service)
   - [0.2. What is Cardiovascular Diseases](#02-what-is-cardiovascular-diseases)
+    - [0.2.1. Heart Attack](#021-heart-attack) 
+    - [0.2.2. Heart Failure](#022-heart-failure)
+    - [0.2.3. Heart Valve Problems](#023-heart-valve-problems)
+    - [0.2.4. Stroke](#024-stroke)
+    - [0.2.5. Arrhythmia](#025-arrhythmia)
 
 - [1. Solution Strategy & Assumptions Resume](#1-solution-strategy-and-assumptions-resume)
   - [1.1. First CRISP Cycle](#11-first-crisp-cycle)
