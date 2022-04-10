@@ -68,8 +68,13 @@
 </ul>
 
 <h4>0.2.5. Arrhythmia</h4>
-<p> Arrhythmia refers to an abnormal heart rhythm. There are various types of arrhythmias.</p>
-<p>The heart can beat too slow, too fast or irregularly.Bradycardia, or a heart rate that’s too slow, is when the heart rate is less than 60 beats per minute. Tachycardia, or a heart rate that’s too fast, refers to a heart rate of more than 100 beats per minute.An arrhythmia can affect how well your heart works. With an irregular heartbeat, your heart may not be able to pump enough blood to meet your body’s needs.</p>
+<p>Arrhythmia refers to an abnormal heart rhythm. There are various types of arrhythmias, The heart can beat too slow, too fast or irregularly, an arrhythmia can affect how well your heart works. With an irregular heartbeat, your heart may not be able to pump enough blood to meet your body’s needs</p>
+<ul>
+  <li>Bradycardia</li>
+  <p>Heart rate that’s too slow, is when the heart rate is less than 60 beats per minute..</p>
+  <li>Tachycardia</li>
+  <p>Heart rate that’s too fast, refers to a heart rate of more than 100 beats per minute.</p>
+</ul>
 
 
 <p>The Dataset Base <a href='https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset'>Cardiovascular Disease</a>.</p>
