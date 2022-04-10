@@ -23,14 +23,14 @@
 
 <h2>0. Bussiness Problem</h2>
 <hr>
-<p><i>Cadio Catch Diseases is a company specializing in early-stage heart disease detection. Its business model is of the service type, that is, the company offers the early diagnosis of a cardiovascular disease for a certain price..</i></p>
+<p><i>Cadio Catch Diseases is a company specializing in early-stage heart disease detection. Its business model is of the service type, that is, the company offers the early diagnosis of a cardiovascular disease for a certain price.</i></p>
 
 <p>Currently, the diagnosis of a cardiovascular disease is done manually by a team of specialists. The current accuracy of the diagnosis varies between 55% and 65%, due to the complexity of the diagnosis and also to the fatigue of the team that takes turns to minimize the risks. The cost of each diagnosis, including the equipment and the analysts' payroll, is around R$ 1,000.00.</p>
 
 > *With a Model, get a better precison on cardiovascular diagnosis.*
 > 1. *What is the precision and accuracy of this new tool?*
 > 2. *How mutch profit the Cardio Catch Diseases will earn with this new tool?* 
-> 3. *What is the confidence interval of this new tool??*
+> 3. *What is the confidence interval of this new tool?*
 
 <h3>0.1. What is a Service</h3>
 <p>Service is a business model like consultory, the company make a work and receive a profit based on her work results. For example, Cardio Catch Diseases, the price of the diagnosis, paid by the client, varies according to the precision achieved by the time of specialists, the client pays R$500.00 for every 5% of accuracy above 50%. For example, for an accuracy of 55%, the diagnosis is R$500.00 for the client, for an accuracy of 60%, the value is R$1000.00, and so on. If the diagnostic accuracy is 50%, the customer does not pay for it.</p>
