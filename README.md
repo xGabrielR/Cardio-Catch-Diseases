@@ -114,9 +114,9 @@
     <dt>Exploratory Data Analysis.</dt>
       <dd>With this dataset is hard to define a class limit, need much deeper feature engineering.</dd>
     <dt>Data Preparation.</dt>
-      <dd>Under Working.</dd>
+      <dd>Used MinMiaxScaler, Robust Scaler and Frequency Encoding for Rescaling some features and drop "alco" & "smoke", because XGBoost and RF did not classify these two features as relevant.</dd>
     <dt>ML Models.</dt>
-      <dd>Under Working.</dd>
+      <dd>I try 7 models on total, four are Tree-based models.</dd>
   </dl>
 </ul>
 
@@ -156,6 +156,37 @@
 <p>People over 45 are 70% more likely to develop cardiovascular disease.</p>
 
 ![cardiovascular](https://user-images.githubusercontent.com/75986085/162857536-57ea4ac7-0b9c-4e60-9f52-e58294bae3c6.png)
+
+
+<h2>3. Data Preparation</h2>
+<hr>
+
+<p>For Rescaling i used both, MinMax and RobustScaler and Frequency Encoding for numerical features like Gluc Level.</p>
+<p>On first cycle i did not used Smoteen for cleaning data overlapping, in next cycles i will go try more things like better feature engineering, PCA, Smoteen...</p>
+
+
+<h2>5. Machine Learning Models</h2>
+<hr>
+
+![models](https://user-images.githubusercontent.com/75986085/163059972-193109c1-bca2-4b89-ad43-9276d6848b5b.png)
+
+<ul>
+   <li>Support Vector Machines</li>
+   <p>I studied about the power of SVM, but in training I didn't see it that powerful, maybe I'll proceed with this model to tune.</p>
+   <li>XGBoost</li>
+   <p>My personal favorite model, fast, light and haved a normal results on training with this dataset.</p>
+   <li>Random Forest</li>
+   <p>Random Forest get less results than XGBoost, but, rf have selected some important features thai i selected.</p>
+   <li>K Nearest Neighbors</li>
+   <p>First time I trained a KNN, I really liked the result with 10 neighbors.</p>
+   <li>Stochastic Gradient Descent</li>
+   <p>This is a good "linear" model, maybe i use on tuning too.</p>
+   <li>Light GBM</li>
+   <p>Similar to XGBoost, but significantly better with this only one train dataset.</p>
+   <li>Ada Boost</li>
+   <p>First time trained AdaBoost.</p>
+</ul>
+
 
 
 <h2>x. References</h2>
