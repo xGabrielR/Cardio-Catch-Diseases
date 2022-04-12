@@ -103,7 +103,7 @@
 <p>Under Desk Research Moment.</p>
 <ul>
   <dl>
-    <dt>Data Clearing & Descriptive Statistical.</dt>
+    <dt>Data Cleaning & Descriptive Statistical.</dt>
       <dd>First real step is download the dataset, import in jupyter and start in seven steps to change data types, data dimension, fillout na... At first statistic dataframe, i used simple statistic descriptions to check how my data is organized, and check, in dataset have only numerical attirbutes!</dd>
     <dt>Feature Engineering.</dt>
       <dd>In this step, with coggle.it to make a mind map and use the mind map to create some hypothesis list, after this list, i created some new features based on blood, like blood volume, blood systolic and diastolic pressure, pulse pressure and bmi, but on dataset do not have other features for more feature engineering.</dd>
