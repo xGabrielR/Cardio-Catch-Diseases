@@ -101,28 +101,65 @@
 
 <h3>1.1. First CRISP Cycle</h3>
 <p>Under Desk Research Moment.</p>
-<!-- <ul>
+<ul>
   <dl>
-    <dt>Data Clearing & Descriptive Statistical.</dt>
-      <dd>First real step is download the dataset, import in jupyter and start in seven steps to change data types, data dimension, fillout na... At first statistic dataframe, i used simple statistic descriptions to check how my data is organized, and check <strong>strong Unbalance Dataset.</strong></dd>
+    <dt>Data Cleaning & Descriptive Statistical.</dt>
+      <dd>First real step is download the dataset, import in jupyter and start in seven steps to change data types, data dimension, fillout na... At first statistic dataframe, i used simple statistic descriptions to check how my data is organized, and check, in dataset have only numerical attirbutes!</dd>
     <dt>Feature Engineering.</dt>
-      <dd>In this step, with coggle.it to make a mind map and use the mind map to create some hypothesis list, after this list, i created some new features based on mdatetime.</dd>
+      <dd>In this step, with coggle.it to make a mind map and use the mind map to create some hypothesis list, after this list, i created some new features based on blood, like blood volume, blood systolic and diastolic pressure, pulse pressure and bmi, but on dataset do not have other features for more feature engineering.</dd>
     <dt>Data Filtering.</dt>
-      <dd>TextArea</dd>
+      <dd>On Dataset Have some Outliers, height, weight, blood pressure, extreme negative diastolic pressure, etc,to work with this i have tried to get a "medical intuition" and removed extreme negative diastolic and systolic blood pressure, and a little height and weight threshold.</dd>
     <dt>Data Balance.</dt>
-      <dd>TextArea</dd>
+      <dd>On Next Cycle i like to use SMOTEEN to clean data overlapping for better model accuracy and precision.</dd>
     <dt>Exploratory Data Analysis.</dt>
-      <dd>TextArea</dd>
+      <dd>With this dataset is hard to define a class limit, need much deeper feature engineering.</dd>
     <dt>Data Preparation.</dt>
-      <dd>TextArea</dd>
+      <dd>Under Working.</dd>
     <dt>ML Models.</dt>
-      <dd>TextArea</dd>
+      <dd>Under Working.</dd>
   </dl>
-</ul> -->
+</ul>
+
+<h2>2. Exploratory Data Analysis</h2>
+<hr>
+<p>EDA is the most important step on Data Science projects, in this step you "deep dive" on data and work with univariable, bivariable and multivariable data analysis.</p>
+
+<h3>2.1. EDA On First Cycle</h3>
+
+<p>In Univariable Analisys</p>
+<ol>
+    <li>The Dataset have some identical and normal features, good for machine learning model.</li>
+    <li>Have a good balance between classes.</li>
+</ol>
+
+<p>Bivariate Analysis</p>
+<ol>
+  <li>The Features based on class, it's hard to find a separating boundary.</li>
+</ol>
+
+<p>With Pearson's correlation method, i get aprox .50 positive correlation with height and gender!</p>
+
+
+<h3>2.2. Top 3 Eda Insights</h3>
+<hr>
+
+<p>People who suffer from dwarfism have 25% higher cholesterol than a normal adult person.</p>
+
+![nanism](https://user-images.githubusercontent.com/75986085/162857654-59101da3-ccbd-4d93-8c26-8bcfb2811509.png)
+
+
+<p>Alcoholic people have a greater chance of developing cardiovascular disease than people who smoke.</p>
+
+![alc](https://user-images.githubusercontent.com/75986085/162857750-8f0f7dbc-fea0-4bec-90b3-e1f14210e1d9.png)
+
+
+<p>People over 45 are 70% more likely to develop cardiovascular disease.</p>
+
+![cardiovascular](https://user-images.githubusercontent.com/75986085/162857536-57ea4ac7-0b9c-4e60-9f52-e58294bae3c6.png)
+
 
 <h2>x. References</h2>
 <hr>
-
 
 <ul>
   <li><a href='https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)'>Cardiovascular diseases</a></li>
