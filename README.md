@@ -17,6 +17,14 @@
 - [1. Solution Strategy & Assumptions Resume](#1-solution-strategy-and-assumptions-resume)
   - [1.1. First CRISP Cycle](#11-first-crisp-cycle)
 
+- [2. Exploratory Data Analysis](#2-exploratory-data-analysis)
+ - [2.1. EDA On First Cycle](#21-eda-on-first-cycle)
+ - [2.2. Top 3 Eda Insights](#22-top-3-eda-insights)
+
+- [3. Data Preparation](#3-data-preparation)
+
+- [5. Machine Learning Models](#5-machine-learning-models)
+
 - [x. References](#x-references)
 
 ---
@@ -186,8 +194,6 @@
    <li>Ada Boost</li>
    <p>First time trained AdaBoost.</p>
 </ul>
-
-
 
 <h2>x. References</h2>
 <hr>
