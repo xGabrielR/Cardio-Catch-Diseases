@@ -110,13 +110,13 @@
     <dt>Data Filtering.</dt>
       <dd>On Dataset Have some Outliers, height, weight, blood pressure, extreme negative diastolic pressure, etc,to work with this i have tried to get a "medical intuition" and removed extreme negative diastolic and systolic blood pressure, and a little height and weight threshold.</dd>
     <dt>Data Balance.</dt>
-      <dd>On Next Cycle</dd>
+      <dd>On Next Cycle i like to use SMOTEEN to clean data overlapping for better model accuracy and precision.</dd>
     <dt>Exploratory Data Analysis.</dt>
       <dd>With this dataset is hard to define a class limit, need much deeper feature engineering.</dd>
     <dt>Data Preparation.</dt>
-      <dd>Under Working</dd>
+      <dd>Under Working.</dd>
     <dt>ML Models.</dt>
-      <dd>Under Working</dd>
+      <dd>Under Working.</dd>
   </dl>
 </ul>
 
