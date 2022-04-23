@@ -23,7 +23,7 @@
 
 - [3. Data Preparation](#3-data-preparation)
 
-- [5. Machine Learning Models](#5-machine-learning-models)
+- [4. Machine Learning Models](#5-machine-learning-models)
 
 - [x. References](#x-references)
 
@@ -172,8 +172,11 @@
 <p>For Rescaling i used both, MinMax and RobustScaler and Frequency Encoding for numerical features like Gluc Level.</p>
 <p>On first cycle i did not used Smoteen for cleaning data overlapping, in next cycles i will go try more things like better feature engineering, PCA, Smoteen...</p>
 
+<h3>3.1. Dataset Balance</h3>
 
-<h2>5. Machine Learning Models</h2>
+<p>On Next Cycle i will try balance Dataset with Smoteen and Smotetomeklinks.</p>
+
+<h2>4. Machine Learning Models</h2>
 <hr>
 
 ![models](https://user-images.githubusercontent.com/75986085/163059972-193109c1-bca2-4b89-ad43-9276d6848b5b.png)
@@ -194,6 +197,32 @@
    <li>Ada Boost</li>
    <p>First time trained AdaBoost.</p>
 </ul>
+
+<h2>5. Model Tuning</h2>
+<hr>
+
+<p>This is the principal step on this Data Science Project, because, there aren't many ways to create features or collect new data, so a very very *very* detailed data preparation and a good tuning in these cases is very important.</p>
+
+<h3>5.1. First Cycle Model Tuning</h3>
+<p>For First Cycle i used SGD and Ada Boosting for Tuning, because Ada have great performace and SGD is a ""linear model"" with linear coeficients. But after tuning, i chosed the SGD because he is it is much lighter on HD than ada, '5Kb' of Disk Space.</p>
+
+![tuned](https://user-images.githubusercontent.com/75986085/164907644-5b0c314a-113a-4eaf-adce-66d6383ec3b7.png)
+
+<p>I used a simple Random Search to find the best params for model.</p>
+
+![cross](https://user-images.githubusercontent.com/75986085/164908814-b89026f2-dcd5-41c9-b243-659ae9b357f8.png)
+
+<p>On Cross Validation the model have a good performace (Precision).</p>
+
+<h3>5.3. Calibration Curves</h3>
+<p>This step is after tuning the model, to calibrate the super and sub estimation adjustments.</p>
+
+
+
+<h3>5.4. Confidence Intervals</h3>
+<p>This is the last step of the step of tuning the machine learning model, in this step the confidence intervals are calculated using a ready-made formula from MachineLearningMastery</p>
+
+
 
 <h2>x. References</h2>
 <hr>
