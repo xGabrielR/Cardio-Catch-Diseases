@@ -217,12 +217,17 @@
 <h3>5.3. Calibration Curves</h3>
 <p>This step is after tuning the model, to calibrate the super and sub estimation adjustments.</p>
 
+![cali](https://user-images.githubusercontent.com/75986085/164909008-ffd120d9-fd0f-4477-97f0-8c5f1384c20f.png)
+
+<p>The Calibrated SGD simple performace.</p>
+
+![final_model](https://user-images.githubusercontent.com/75986085/164909033-6786535f-4306-4695-852a-b6c888986f00.png)
 
 
 <h3>5.4. Confidence Intervals</h3>
 <p>This is the last step of the step of tuning the machine learning model, in this step the confidence intervals are calculated using a ready-made formula from MachineLearningMastery</p>
 
-
+![boot](https://user-images.githubusercontent.com/75986085/164909015-8117ff1f-b909-4ccc-9478-2aea16b514aa.png)
 
 <h2>x. References</h2>
 <hr>
