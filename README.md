@@ -23,7 +23,17 @@
 
 - [3. Data Preparation](#3-data-preparation)
 
-- [4. Machine Learning Models](#5-machine-learning-models)
+- [4. Machine Learning Models](#4-machine-learning-models)
+
+- [5. Model Tuning](#5-model-tuning)
+  - [5.1. First Cycle Model Tuning](#51-first-cycle-model-tuning)
+  - [5.2. Calibration Curves](#52-calibration-curves)
+  - [5.3. Confidence Intervals](#53-confidence-intervals) 
+
+- [6. Model Bussiness Results](#6-model-bussiness-results)
+  - [6.1. What is the precision and accuracy of this new tool?](#61-what-is-the-precision-and-accuracy-of-this-new-tool?) 
+  - [6.2. How mutch profit the CCD will earn with this new tool?](#62-How-mutch-profit-the-cdd-will-earn-with-this-new-tool?) 
+  - [6.3. What is the confidence interval of this new tool?](#63-what-is-the-confidence-interval-of-this-new-tool?) 
 
 - [x. References](#x-references)
 
@@ -214,7 +224,7 @@
 
 <p>On Cross Validation the model have a good performace (Precision).</p>
 
-<h3>5.3. Calibration Curves</h3>
+<h3>5.2. Calibration Curves</h3>
 <p>This step is after tuning the model, to calibrate the super and sub estimation adjustments.</p>
 
 ![cali](https://user-images.githubusercontent.com/75986085/164909008-ffd120d9-fd0f-4477-97f0-8c5f1384c20f.png)
@@ -223,7 +233,7 @@
 
 ![final_model](https://user-images.githubusercontent.com/75986085/164909033-6786535f-4306-4695-852a-b6c888986f00.png)
 
-<h3>5.4. Confidence Intervals</h3>
+<h3>5.3. Confidence Intervals</h3>
 <p>This is the last step of the step of tuning the machine learning model, in this step the confidence intervals are calculated using a ready-made formula from MachineLearningMastery</p>
 
 ![boot](https://user-images.githubusercontent.com/75986085/164909015-8117ff1f-b909-4ccc-9478-2aea16b514aa.png)
@@ -243,7 +253,7 @@ At Cross Validation Between ( Mean + / - Std )
 2. Precision ( 0.7436 + / - 0.0067 )
 
 
-<h3>6.2. How mutch profit the Cardio Catch Diseases will earn with this new tool?</h3>
+<h3>6.2. How mutch profit the CCD will earn with this new tool?</h3>
 <p>Based on All Dataset (68k Patients).</p>
 
 <table>
