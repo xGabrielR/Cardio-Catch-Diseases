@@ -246,12 +246,7 @@ At Cross Validation Between ( Mean + / - Std )
 <h3>6.2. How mutch profit the Cardio Catch Diseases will earn with this new tool?</h3>
 <table>
   <tr>
-    <th>Percent</th>
-    <th>Money</th>
-    <th>Total Money Base</th>
-    <th>Total Money Model</th>
-  </tr>
-  <tr>
+    <td>% of Precision</td>
     <td>50 %</td>
     <td>55 %</td>
     <td>60 %</td>
@@ -261,6 +256,7 @@ At Cross Validation Between ( Mean + / - Std )
     <td>80 %</td>
   </tr>
   <tr>
+    <td>Money / Precision</td>
     <td>FREE</td>
     <td>$ 500</td>
     <td>$ 1000</td>
@@ -270,6 +266,7 @@ At Cross Validation Between ( Mean + / - Std )
     <td>$ 3000</td>
   </tr>
   <tr>
+    <td>Actual Money / Precision</td>
     <td>$ 0</td>
     <td>$ 343,530.00</td>
     <td>$ 687,060.00</td>
@@ -278,6 +275,7 @@ At Cross Validation Between ( Mean + / - Std )
     <td>$ --#--</td>
     <td>$ --#--</td>
   </tr>
+    <td>Model Money / Precision</td>
     <td>$ --#--</td>
     <td>$ 343,530.00</td>
     <td>$ 687,060.00</td>
