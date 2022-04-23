@@ -31,9 +31,9 @@
   - [5.3. Confidence Intervals](#53-confidence-intervals) 
 
 - [6. Model Bussiness Results](#6-model-bussiness-results)
-  - [6.1. What is the precision and accuracy of this new tool?](#61-what-is-the-precision-and-accuracy-of-this-new-tool?) 
-  - [6.2. How mutch profit the CCD will earn with this new tool?](#62-How-mutch-profit-the-cdd-will-earn-with-this-new-tool?) 
-  - [6.3. What is the confidence interval of this new tool?](#63-what-is-the-confidence-interval-of-this-new-tool?) 
+  - [6.1. What is the precision and accuracy of this new tool](#61-what-is-the-precision-and-accuracy-of-this-new-tool) 
+  - [6.2. How mutch profit the CCD will earn with this new tool](#62-How-mutch-profit-the-cdd-will-earn-with-this-new-tool) 
+  - [6.3. What is the confidence interval of this new tool](#63-what-is-the-confidence-interval-of-this-new-tool) 
 
 - [x. References](#x-references)
 
@@ -245,7 +245,7 @@
 > 2. *How mutch profit the Cardio Catch Diseases will earn with this new tool?* 
 > 3. *What is the confidence interval of this new tool?*
 
-<h3>6.1. What is the precision and accuracy of this new tool?</h3>
+<h3>6.1. What is the precision and accuracy of this new tool</h3>
 
 At Cross Validation Between ( Mean + / - Std )
 
@@ -253,7 +253,7 @@ At Cross Validation Between ( Mean + / - Std )
 2. Precision ( 0.7436 + / - 0.0067 )
 
 
-<h3>6.2. How mutch profit the CCD will earn with this new tool?</h3>
+<h3>6.2. How mutch profit the CCD will earn with this new tool</h3>
 <p>Based on All Dataset (68k Patients).</p>
 
 <table>
@@ -316,7 +316,7 @@ At Cross Validation Between ( Mean + / - Std )
   </tr>
 </table>
 
-<h3>6.3. What is the confidence interval of this new tool?</h3>
+<h3>6.3. What is the confidence interval of this new tool</h3>
 
 - 25% confidence interval of Model Performace ( 73.13% & 73.38% )
 - 50% confidence interval of Model Performace ( 73.01% & 73.51% )
