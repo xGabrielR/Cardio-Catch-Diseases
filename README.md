@@ -223,11 +223,36 @@
 
 ![final_model](https://user-images.githubusercontent.com/75986085/164909033-6786535f-4306-4695-852a-b6c888986f00.png)
 
-
 <h3>5.4. Confidence Intervals</h3>
 <p>This is the last step of the step of tuning the machine learning model, in this step the confidence intervals are calculated using a ready-made formula from MachineLearningMastery</p>
 
 ![boot](https://user-images.githubusercontent.com/75986085/164909015-8117ff1f-b909-4ccc-9478-2aea16b514aa.png)
+
+<h2>6. Model Bussiness Results</h2>
+<p>Need to answer the Questions</p>
+
+> 1. *What is the precision and accuracy of this new tool?*
+> 2. *How mutch profit the Cardio Catch Diseases will earn with this new tool?* 
+> 3. *What is the confidence interval of this new tool?*
+
+<h3>6.1. What is the precision and accuracy of this new tool?</h3>
+
+At Cross Validation Between ( Mean + / - Std )
+
+1. Accuracy ( 0.7232 + / - 0.0059 )
+2. Precision ( 0.7436 + / - 0.0067 )
+
+
+<h3>6.2. How mutch profit the Cardio Catch Diseases will earn with this new tool?</h3>
+
+
+
+<h3>6.3. What is the confidence interval of this new tool?</h3>
+
+- 25% confidence interval of Model Performace ( 73.13% & 73.38% )
+- 50% confidence interval of Model Performace ( 73.01% & 73.51% )
+- 75% confidence interval of Model Performace ( 72.81% & 73.67% )
+
 
 <h2>x. References</h2>
 <hr>
