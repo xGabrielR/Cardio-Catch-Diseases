@@ -244,8 +244,49 @@ At Cross Validation Between ( Mean + / - Std )
 
 
 <h3>6.2. How mutch profit the Cardio Catch Diseases will earn with this new tool?</h3>
-
-
+<table>
+  <tr>
+    <th>Percent</th>
+    <th>Money</th>
+    <th>Total Money Base</th>
+    <th>Total Money Model</th>
+  </tr>
+  <tr>
+    <td>50 %</td>
+    <td>55 %</td>
+    <td>60 %</td>
+    <td>65 %</td>
+    <td>70 %</td>
+    <td>75 %</td>
+    <td>80 %</td>
+  </tr>
+  <tr>
+    <td>FREE</td>
+    <td>$ 500</td>
+    <td>$ 1000</td>
+    <td>$ 1500</td>
+    <td>$ 2000</td>
+    <td>$ 2500</td>
+    <td>$ 3000</td>
+  </tr>
+  <tr>
+    <td>$ 0</td>
+    <td>$ 343,530.00</td>
+    <td>$ 687,060.00</td>
+    <td>$ 1,030,590.00</td>
+    <td>$ --#--</td>
+    <td>$ --#--</td>
+    <td>$ --#--</td>
+  </tr>
+    <td>$ --#--</td>
+    <td>$ 343,530.00</td>
+    <td>$ 687,060.00</td>
+    <td>$ 1,030,590.00</td>
+    <td>$ 1,374,120.00</td>
+    <td>$ 1,717,650.00</td>
+    <td>$ --#--</td>
+  </tr>
+</table>
 
 <h3>6.3. What is the confidence interval of this new tool?</h3>
 
