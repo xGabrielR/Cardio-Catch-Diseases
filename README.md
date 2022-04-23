@@ -286,6 +286,24 @@ At Cross Validation Between ( Mean + / - Std )
   </tr>
 </table>
 
+<table>
+  <tr>
+    <th>__ / __</th>
+    <th>Best Scenario</th>
+    <th>Worst Scenario</th>
+  </tr>
+  <tr>
+    <td>Model</td>
+    <td>+/- $ 1,717,650.00</td>
+    <td>+/- $ 1,374,120.00</td>
+  </tr>
+  <tr>
+    <td>Actual</td>
+    <td>+/- $ 1,030,590.00</td>
+    <td>+/- $ 343,530.00</td>
+  </tr>
+</table>
+
 <h3>6.3. What is the confidence interval of this new tool?</h3>
 
 - 25% confidence interval of Model Performace ( 73.13% & 73.38% )
