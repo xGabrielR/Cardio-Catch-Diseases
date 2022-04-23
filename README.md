@@ -244,6 +244,8 @@ At Cross Validation Between ( Mean + / - Std )
 
 
 <h3>6.2. How mutch profit the Cardio Catch Diseases will earn with this new tool?</h3>
+<p>Based on All Dataset (68k Patients).</p>
+
 <table>
   <tr>
     <td>% of Precision</td>
