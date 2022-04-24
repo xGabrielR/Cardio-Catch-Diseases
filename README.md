@@ -40,7 +40,9 @@
 - [6. Model Bussiness Results](#6-model-bussiness-results)
   - [6.1. What is the precision and accuracy of this new tool](#61-what-is-the-precision-and-accuracy-of-this-new-tool) 
   - [6.2. How mutch profit the CCD will earn with this new tool](#62-how-mutch-profit-the-ccd-will-earn-with-this-new-tool) 
-  - [6.3. What is the confidence interval of this new tool](#63-what-is-the-confidence-interval-of-this-new-tool) 
+  - [6.3. What is the confidence interval of this new tool](#63-what-is-the-confidence-interval-of-this-new-tool)
+
+- [7. Model Deployment](#7-model-deployment)
 
 - [x. References](#x-references)
 
