@@ -24,19 +24,22 @@
 
 - [3. Data Preparation](#3-data-preparation)
   - [3.1. Dataset Balance](#31-dataset-balance)
-    - [3.1.1. First Cycle](#311-firstcycle)
-    - [3.1.2. Second Cycle](#312-first-cycle)  
+    - [3.1.1. First Cycle](#311-first-cycle)
+    - [3.1.2. Second Cycle](#312-second-cycle)  
 
 - [4. Machine Learning Models](#4-machine-learning-models)
 
 - [5. Model Tuning](#5-model-tuning)
   - [5.1. First Cycle Model Tuning](#51-first-cycle-model-tuning)
-  - [5.2. Calibration Curves](#52-calibration-curves)
-  - [5.3. Confidence Intervals](#53-confidence-intervals) 
+    - [5.1.1. Calibration Curves](#511-calibration-curves)
+    - [5.1.2. Confidence Intervals](#512-confidence-intervals) 
+  - [5.2. Second Cycle Model Tuning](52-second-cycle-model-tuning)
+    - [5.2.1. Calibration Curves](#521-calibration-curves)
+    - [5.2.2. Confidence Intervals](#522-confidence-intervals) 
 
 - [6. Model Bussiness Results](#6-model-bussiness-results)
   - [6.1. What is the precision and accuracy of this new tool](#61-what-is-the-precision-and-accuracy-of-this-new-tool) 
-  - [6.2. How mutch profit the CCD will earn with this new tool](#62-How-mutch-profit-the-cdd-will-earn-with-this-new-tool) 
+  - [6.2. How mutch profit the CCD will earn with this new tool](#62-how-mutch-profit-the-ccd-will-earn-with-this-new-tool) 
   - [6.3. What is the confidence interval of this new tool](#63-what-is-the-confidence-interval-of-this-new-tool) 
 
 - [x. References](#x-references)
@@ -267,7 +270,7 @@
 <h3>5.2. Second Cycle Model Tuning</h3>
 <p>I Using SGD and Ada on Second Cycle Too for tuning on Smoteen and Smotetomek Dataset. But after some tests i prefer to use SGD again to production.</p>
 
-<h4>5.1.1. Calibration Curves</h4>
+<h4>5.2.1. Calibration Curves</h4>
 <p>The calibration curve of Raw SGD model</p>
 
 ![calibration_curve](https://user-images.githubusercontent.com/75986085/164985636-5f01a5bd-62db-45ec-8bfb-28db078af239.png)
@@ -276,7 +279,7 @@
 
 ![calibration_curve_tuned](https://user-images.githubusercontent.com/75986085/164986267-d74fba26-c659-4342-b9ba-5268f05f4b6e.png)
 
-<h4>5.1.2. Confidence Intervals</h4>
+<h4>5.2.2. Confidence Intervals</h4>
 
 <p>The Bootstrap of Tuned Only SGD Model.</p>
 
@@ -367,6 +370,12 @@ At Cross Validation Between ( Mean + / - Std )
 - 25% confidence interval of Model Performace ( 90.13% & 91.57% )
 - 50% confidence interval of Model Performace ( 90.29% & 91.98% )
 - 75% confidence interval of Model Performace ( 89.73% & 92.59% )
+
+<h2>7. Model Deployment</h2>
+<hr>
+
+<p>This is the step for user use the Model Prediction to make better decisions, i chose to deploy on Heroku and make a JS Request on Google Scripts.</p>
+<p>Under Working.</p>
 
 
 <h2>x. References</h2>
