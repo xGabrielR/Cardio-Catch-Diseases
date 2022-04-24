@@ -275,17 +275,17 @@
 <h4>5.2.1. Calibration Curves</h4>
 <p>The calibration curve of Raw SGD model</p>
 
-![calibration_curve](https://user-images.githubusercontent.com/75986085/164985636-5f01a5bd-62db-45ec-8bfb-28db078af239.png)
+
 
 <p>The calibration curve of Tuned SGD model</p>
 
-![calibration_curve_tuned](https://user-images.githubusercontent.com/75986085/164986267-d74fba26-c659-4342-b9ba-5268f05f4b6e.png)
+
 
 <h4>5.2.2. Confidence Intervals</h4>
 
 <p>The Bootstrap of Tuned Only SGD Model.</p>
 
-![tuned_sgd_bootstrap](https://user-images.githubusercontent.com/75986085/164986294-e58820c9-80b9-4641-a158-808b042ad420.png)
+
 
 <p>I do not selected calibrated + tuned model because on bootstrap eith calibrated + tuned model i get an insignificantly larger error. I only used Tuned Model to Deploy.</p>
 
