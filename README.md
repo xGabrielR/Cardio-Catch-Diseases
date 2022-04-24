@@ -118,7 +118,7 @@
 <hr>
 
 <h3>1.1. First CRISP Cycle</h3>
-<p>Under Desk Research Moment.</p>
+
 <ul>
   <dl>
     <dt>Data Cleaning & Descriptive Statistical.</dt>
@@ -132,11 +132,25 @@
     <dt>Exploratory Data Analysis.</dt>
       <dd>With this dataset is hard to define a class limit, need much deeper feature engineering.</dd>
     <dt>Data Preparation.</dt>
-      <dd>Used MinMiaxScaler, Robust Scaler and Frequency Encoding for Rescaling some features and drop "alco" & "smoke", because XGBoost and RF did not classify these two features as relevant.</dd>
+      <dd>Used MinMiaxScaler, Robust Scaler & Frequency Encoding for Rescaling some features and drop "alco" & "smoke", because XGBoost and RF did not classify these two features as relevant.</dd>
     <dt>ML Models.</dt>
       <dd>I try 7 models on total, four are Tree-based models.</dd>
   </dl>
 </ul>
+
+<h3>1.2. Second CRISP Cycle</h3>
+
+<ul>
+  <dl>
+    <dt>Data Balance.</dt>
+      <dd>I used SMOTEEN and SMOTETOMEK for Dataset Balance.</dd>
+    <dt>Data Preparation.</dt>
+      <dd>Used MinMiaxScaler, Robust Scaler & Frequency Encoding for Rescaling both datasets (Smoteen Dataset and Smotetomek Dataset) some features and drop "alco" & "smoke", because XGBoost and RF did not classify these two features as relevant.</dd>
+    <dt>ML Models.</dt>
+      <dd>I Used SGD and Ada, focus on SGD classifier.</dd>
+  </dl>
+</ul>
+
 
 <h2>2. Exploratory Data Analysis</h2>
 <hr>
@@ -184,7 +198,15 @@
 
 <h3>3.1. Dataset Balance</h3>
 
+<h4>3.1.1. First Cycle</h4>
 <p>On Next Cycle i will try balance Dataset with Smoteen and Smotetomeklinks.</p>
+
+<h4>3.1.2. Second Cycle</h4>
+<p>I Try both, Smoteen and Smotetomek on Cardio Dataset.</p>
+<p>Smoteen removed a lot of data overlapping on Dataset and Smotetomek do not work much well than Smoteen for Balance.</p>
+
+![dataset_balance](https://user-images.githubusercontent.com/75986085/164985257-bb1178e7-6fd5-497c-a930-93fccd98ebca.png)
+
 
 <h2>4. Machine Learning Models</h2>
 <hr>
@@ -224,7 +246,7 @@
 
 <p>On Cross Validation the model have a good performace (Precision).</p>
 
-<h3>5.2. Calibration Curves</h3>
+<h4>5.1.1. Calibration Curves</h4>
 <p>This step is after tuning the model, to calibrate the super and sub estimation adjustments.</p>
 
 ![cali](https://user-images.githubusercontent.com/75986085/164909008-ffd120d9-fd0f-4477-97f0-8c5f1384c20f.png)
@@ -233,10 +255,30 @@
 
 ![final_model](https://user-images.githubusercontent.com/75986085/164909033-6786535f-4306-4695-852a-b6c888986f00.png)
 
-<h3>5.3. Confidence Intervals</h3>
+<h4>5.1.2. Confidence Intervals</h4>
 <p>This is the last step of the step of tuning the machine learning model, in this step the confidence intervals are calculated using a ready-made formula from MachineLearningMastery</p>
 
 ![boot](https://user-images.githubusercontent.com/75986085/164909015-8117ff1f-b909-4ccc-9478-2aea16b514aa.png)
+
+<h3>5.2. Second Cycle Model Tuning</h3>
+<p>I Using SGD and Ada on Second Cycle Too for tuning on Smoteen and Smotetomek Dataset. But after some tests i prefer to use SGD again to production.</p>
+
+<h4>5.1.1. Calibration Curves</h4>
+<p>The calibration curve of Raw SGD model</p>
+
+![calibration_curve](https://user-images.githubusercontent.com/75986085/164985636-5f01a5bd-62db-45ec-8bfb-28db078af239.png)
+
+<p>The calibration curve of Tuned SGD model</p>
+
+![calibration_curve_tuned](https://user-images.githubusercontent.com/75986085/164986267-d74fba26-c659-4342-b9ba-5268f05f4b6e.png)
+
+<h4>5.1.2. Confidence Intervals</h4>
+
+<p>The Bootstrap of Tuned Only SGD Model.</p>
+
+![tuned_sgd_bootstrap](https://user-images.githubusercontent.com/75986085/164986294-e58820c9-80b9-4641-a158-808b042ad420.png)
+
+<p>I do not selected calibrated + tuned model because on bootstrap eith calibrated + tuned model i get an insignificantly larger error. I only used Tuned Model to Deploy.</p>
 
 <h2>6. Model Bussiness Results</h2>
 <p>Need to answer the Questions</p>
@@ -294,7 +336,7 @@ At Cross Validation Between ( Mean + / - Std )
     <td>$ 1,030,590.00</td>
     <td>$ 1,374,120.00</td>
     <td>$ 1,717,650.00</td>
-    <td>$ --#--</td>
+    <td>$ 2,040,000.00</td>
   </tr>
 </table>
 
@@ -306,7 +348,7 @@ At Cross Validation Between ( Mean + / - Std )
   </tr>
   <tr>
     <td>Model</td>
-    <td>+/- $ 1,717,650.00</td>
+    <td>+/- $ 2,040,000.00</td>
     <td>+/- $ 1,374,120.00</td>
   </tr>
   <tr>
@@ -318,9 +360,9 @@ At Cross Validation Between ( Mean + / - Std )
 
 <h3>6.3. What is the confidence interval of this new tool</h3>
 
-- 25% confidence interval of Model Performace ( 73.13% & 73.38% )
-- 50% confidence interval of Model Performace ( 73.01% & 73.51% )
-- 75% confidence interval of Model Performace ( 72.81% & 73.67% )
+- 25% confidence interval of Model Performace ( 90.13% & 91.57% )
+- 50% confidence interval of Model Performace ( 90.29% & 91.98% )
+- 75% confidence interval of Model Performace ( 89.73% & 92.59% )
 
 
 <h2>x. References</h2>
