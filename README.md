@@ -16,12 +16,16 @@
 
 - [1. Solution Strategy & Assumptions Resume](#1-solution-strategy-and-assumptions-resume)
   - [1.1. First CRISP Cycle](#11-first-crisp-cycle)
+  - [1.2. Second CRISP Cycle](#12-second-crisp-cycle)
 
 - [2. Exploratory Data Analysis](#2-exploratory-data-analysis)
   - [2.1. EDA On First Cycle](#21-eda-on-first-cycle)
   - [2.2. Top 3 Eda Insights](#22-top-3-eda-insights)
 
 - [3. Data Preparation](#3-data-preparation)
+  - [3.1. Dataset Balance](#31-dataset-balance)
+    - [3.1.1. First Cycle](#311-firstcycle)
+    - [3.1.2. Second Cycle](#312-first-cycle)  
 
 - [4. Machine Learning Models](#4-machine-learning-models)
 
