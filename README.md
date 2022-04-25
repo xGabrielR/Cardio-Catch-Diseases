@@ -279,7 +279,7 @@
 <h4>5.2.1. Calibration Curves</h4>
 <p>The calibration curve of Raw ADA model</p>
 
-// Under Training.
+![calibrated_ada_bootstrap](https://user-images.githubusercontent.com/75986085/165102550-0988868d-758b-43be-9ca6-b357b837f2be.png)
 
 <p>The calibration curve of Tuned ADA model</p>
 
@@ -372,9 +372,9 @@ At Cross Validation Between ( Mean + / - Std )
 
 <h3>6.3. What is the confidence interval of this new tool</h3>
 
-- 25% confidence interval of Model Performace ( xx.xx% & xx.xx% ) # Under Working.
-- 50% confidence interval of Model Performace ( xx.xx% & xx.xx% ) # Under Working.
-- 75% confidence interval of Model Performace ( xx.xx% & xx.xx% ) # Under Working.
+- **25%** confidence interval of Model Performace **( 77.81%  &  78.34% )**
+- **50%** confidence interval of Model Performace **( 77.44%  &  78.59% )**
+- **75%** confidence interval of Model Performace **( 77.02%  &  78.95% )**
 
 <h2>7. Model Deployment</h2>
 <hr>
