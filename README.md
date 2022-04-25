@@ -287,7 +287,7 @@
 
 <h4>5.2.2. Confidence Intervals</h4>
 
-<p>The Bootstrap of Tuned Only SGD Model.</p>
+<p>The Bootstrap of Tuned Only ADA Model.</p>
 
 ![raw_ada](https://user-images.githubusercontent.com/75986085/165006883-f71bcd9e-fad3-4cf8-afd4-702b57cdd4ce.png)
 
