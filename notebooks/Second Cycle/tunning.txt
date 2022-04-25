@@ -1,250 +1,250 @@
 
 
- {'n_estimators': 200, 'learning_rate': 1.4, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy           Precision
-0  AdaBoostClassifier  0.8751 + / - 0.0061  0.9151 + / - 0.004
-
-
- {'n_estimators': 100, 'learning_rate': 1.0, 'algorithm': 'SAMME'}
+ {'n_estimators': 50, 'learning_rate': 1.0, 'algorithm': 'SAMME.R'}
            Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8734 + / - 0.0036  0.9149 + / - 0.0034
+0  AdaBoostClassifier  0.7527 + / - 0.0025  0.7958 + / - 0.0079
 
 
- {'n_estimators': 200, 'learning_rate': 0.7, 'algorithm': 'SAMME'}
-           Model Name             Accuracy           Precision
-0  AdaBoostClassifier  0.8747 + / - 0.0025  0.9171 + / - 0.003
-
-
- {'n_estimators': 200, 'learning_rate': 1.4, 'algorithm': 'SAMME.R'}
+ {'n_estimators': 50, 'learning_rate': 1.0, 'algorithm': 'SAMME'}
            Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8763 + / - 0.0036  0.9166 + / - 0.0032
+0  AdaBoostClassifier  0.7477 + / - 0.0034  0.7958 + / - 0.0045
 
 
- {'n_estimators': 150, 'learning_rate': 0.7, 'algorithm': 'SAMME'}
-           Model Name             Accuracy           Precision
-0  AdaBoostClassifier  0.8734 + / - 0.0038  0.9193 + / - 0.004
+ {'n_estimators': 100, 'learning_rate': 1.2, 'algorithm': 'SAMME'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7504 + / - 0.0037  0.7949 + / - 0.0067
 
 
- {'n_estimators': 200, 'learning_rate': 1.0, 'algorithm': 'SAMME'}
-           Model Name             Accuracy           Precision
-0  AdaBoostClassifier  0.8744 + / - 0.0021  0.9171 + / - 0.001
+ {'n_estimators': 200, 'learning_rate': 1.0, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7531 + / - 0.0063  0.7966 + / - 0.0066
 
 
  {'n_estimators': 100, 'learning_rate': 1.0, 'algorithm': 'SAMME.R'}
            Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8756 + / - 0.0032  0.9159 + / - 0.0044
+0  AdaBoostClassifier  0.7539 + / - 0.0015  0.7964 + / - 0.0038
 
 
- {'n_estimators': 50, 'learning_rate': 1.2, 'algorithm': 'SAMME'}
+ {'n_estimators': 200, 'learning_rate': 1.4, 'algorithm': 'SAMME.R'}
            Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8737 + / - 0.0032  0.9145 + / - 0.0036
-
-
- {'n_estimators': 50, 'learning_rate': 1.0, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8758 + / - 0.0026  0.9148 + / - 0.0048
-
-
- {'n_estimators': 50, 'learning_rate': 1.2, 'algorithm': 'SAMME'}
-           Model Name             Accuracy           Precision
-0  AdaBoostClassifier  0.8732 + / - 0.0022  0.918 + / - 0.0057
-
-
- {'n_estimators': 200, 'learning_rate': 0.5, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8765 + / - 0.0048  0.9165 + / - 0.0062
-
-
- {'n_estimators': 100, 'learning_rate': 1.0, 'algorithm': 'SAMME'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8736 + / - 0.0046  0.9153 + / - 0.0062
-
-
- {'n_estimators': 150, 'learning_rate': 0.5, 'algorithm': 'SAMME'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8735 + / - 0.0018  0.9191 + / - 0.0051
-
-
- {'n_estimators': 150, 'learning_rate': 1.0, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy           Precision
-0  AdaBoostClassifier  0.8764 + / - 0.0053  0.917 + / - 0.0052
-
-
- {'n_estimators': 150, 'learning_rate': 1.0, 'algorithm': 'SAMME'}
-           Model Name            Accuracy            Precision
-0  AdaBoostClassifier  0.8742 + / - 0.003  0.9176 + / - 0.0048
-
-
- {'n_estimators': 50, 'learning_rate': 1.2, 'algorithm': 'SAMME'}
-           Model Name             Accuracy           Precision
-0  AdaBoostClassifier  0.8735 + / - 0.0039  0.918 + / - 0.0111
-
-
- {'n_estimators': 100, 'learning_rate': 1.0, 'algorithm': 'SAMME'}
-           Model Name             Accuracy           Precision
-0  AdaBoostClassifier  0.8743 + / - 0.0016  0.9171 + / - 0.007
-
-
- {'n_estimators': 50, 'learning_rate': 1.4, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy           Precision
-0  AdaBoostClassifier  0.8752 + / - 0.0027  0.914 + / - 0.0038
-
-
- {'n_estimators': 150, 'learning_rate': 1.4, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy           Precision
-0  AdaBoostClassifier  0.8755 + / - 0.0025  0.9154 + / - 0.003
-
-
- {'n_estimators': 150, 'learning_rate': 1.2, 'algorithm': 'SAMME'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8747 + / - 0.0036  0.9172 + / - 0.0028
-
-
- {'n_estimators': 150, 'learning_rate': 1.0, 'algorithm': 'SAMME'}
-           Model Name             Accuracy           Precision
-0  AdaBoostClassifier  0.8748 + / - 0.0022  0.918 + / - 0.0031
-
-
- {'n_estimators': 200, 'learning_rate': 0.5, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8764 + / - 0.0036  0.9166 + / - 0.0043
-
-
- {'n_estimators': 200, 'learning_rate': 1.4, 'algorithm': 'SAMME'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8748 + / - 0.0025  0.9126 + / - 0.0043
-
-
- {'n_estimators': 150, 'learning_rate': 1.2, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8761 + / - 0.0017  0.9167 + / - 0.0029
-
-
- {'n_estimators': 150, 'learning_rate': 1.4, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8761 + / - 0.0059  0.9169 + / - 0.0051
-
-
- {'n_estimators': 150, 'learning_rate': 1.0, 'algorithm': 'SAMME'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8747 + / - 0.0027  0.9194 + / - 0.0076
-
-
- {'n_estimators': 50, 'learning_rate': 1.2, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8758 + / - 0.0018  0.9162 + / - 0.0038
-
-
- {'n_estimators': 200, 'learning_rate': 1.0, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8759 + / - 0.0028  0.9169 + / - 0.0076
-
-
- {'n_estimators': 100, 'learning_rate': 0.7, 'algorithm': 'SAMME'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8727 + / - 0.0047  0.9182 + / - 0.0066
-
-
- {'n_estimators': 100, 'learning_rate': 1.4, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8759 + / - 0.0039  0.9153 + / - 0.0054
-
-
- {'n_estimators': 200, 'learning_rate': 1.2, 'algorithm': 'SAMME'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8747 + / - 0.0057  0.9166 + / - 0.0059
-
-
- {'n_estimators': 200, 'learning_rate': 0.7, 'algorithm': 'SAMME'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8743 + / - 0.0022  0.9169 + / - 0.0004
-
-
- {'n_estimators': 50, 'learning_rate': 1.2, 'algorithm': 'SAMME'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8728 + / - 0.0049  0.9175 + / - 0.0072
-
-
- {'n_estimators': 150, 'learning_rate': 0.7, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8758 + / - 0.0039  0.9158 + / - 0.0069
+0  AdaBoostClassifier  0.7531 + / - 0.0035  0.7969 + / - 0.0041
 
 
  {'n_estimators': 200, 'learning_rate': 1.2, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8758 + / - 0.0031  0.9163 + / - 0.0044
+           Model Name            Accuracy            Precision
+0  AdaBoostClassifier  0.753 + / - 0.0026  0.7962 + / - 0.0042
 
 
- {'n_estimators': 200, 'learning_rate': 1.0, 'algorithm': 'SAMME.R'}
+ {'n_estimators': 50, 'learning_rate': 1.0, 'algorithm': 'SAMME'}
            Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8767 + / - 0.0038  0.9167 + / - 0.0066
+0  AdaBoostClassifier  0.7475 + / - 0.0031  0.7951 + / - 0.0063
+
+
+ {'n_estimators': 100, 'learning_rate': 1.0, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy           Precision
+0  AdaBoostClassifier  0.7536 + / - 0.0035  0.7962 + / - 0.004
+
+
+ {'n_estimators': 200, 'learning_rate': 0.7, 'algorithm': 'SAMME'}
+           Model Name             Accuracy           Precision
+0  AdaBoostClassifier  0.7487 + / - 0.0025  0.796 + / - 0.0024
 
 
  {'n_estimators': 100, 'learning_rate': 1.4, 'algorithm': 'SAMME'}
            Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8748 + / - 0.0059  0.9127 + / - 0.0073
-
-
- {'n_estimators': 200, 'learning_rate': 1.2, 'algorithm': 'SAMME'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8746 + / - 0.0022  0.9153 + / - 0.0071
-
-
- {'n_estimators': 150, 'learning_rate': 1.0, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8761 + / - 0.0037  0.9157 + / - 0.0066
-
-
- {'n_estimators': 100, 'learning_rate': 0.5, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8754 + / - 0.0043  0.9152 + / - 0.0019
-
-
- {'n_estimators': 100, 'learning_rate': 0.5, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8756 + / - 0.0013  0.9157 + / - 0.0052
-
-
- {'n_estimators': 150, 'learning_rate': 0.7, 'algorithm': 'SAMME.R'}
-           Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8764 + / - 0.0039  0.9162 + / - 0.0018
+0  AdaBoostClassifier  0.7503 + / - 0.0039  0.7928 + / - 0.0042
 
 
  {'n_estimators': 200, 'learning_rate': 0.5, 'algorithm': 'SAMME'}
-           Model Name            Accuracy            Precision
-0  AdaBoostClassifier  0.8749 + / - 0.005  0.9196 + / - 0.0058
-
-
- {'n_estimators': 150, 'learning_rate': 1.2, 'algorithm': 'SAMME.R'}
-           Model Name            Accuracy           Precision
-0  AdaBoostClassifier  0.8764 + / - 0.003  0.9167 + / - 0.002
-
-
- {'n_estimators': 200, 'learning_rate': 1.4, 'algorithm': 'SAMME.R'}
-           Model Name            Accuracy            Precision
-0  AdaBoostClassifier  0.8755 + / - 0.004  0.9156 + / - 0.0034
-
-
- {'n_estimators': 100, 'learning_rate': 1.2, 'algorithm': 'SAMME.R'}
            Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8766 + / - 0.0024  0.9177 + / - 0.0028
+0  AdaBoostClassifier  0.7488 + / - 0.0027  0.7981 + / - 0.0065
+
+
+ {'n_estimators': 50, 'learning_rate': 1.2, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7536 + / - 0.0042  0.7931 + / - 0.0045
 
 
  {'n_estimators': 50, 'learning_rate': 1.4, 'algorithm': 'SAMME.R'}
            Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8747 + / - 0.0023  0.9133 + / - 0.0022
+0  AdaBoostClassifier  0.7532 + / - 0.0025  0.7981 + / - 0.0058
 
 
- {'n_estimators': 200, 'learning_rate': 1.0, 'algorithm': 'SAMME.R'}
+ {'n_estimators': 150, 'learning_rate': 0.5, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7535 + / - 0.0029  0.7982 + / - 0.0053
+
+
+ {'n_estimators': 50, 'learning_rate': 1.2, 'algorithm': 'SAMME.R'}
+           Model Name            Accuracy            Precision
+0  AdaBoostClassifier  0.753 + / - 0.0028  0.7941 + / - 0.0058
+
+
+ {'n_estimators': 200, 'learning_rate': 1.4, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7524 + / - 0.0041  0.7971 + / - 0.0046
+
+
+ {'n_estimators': 150, 'learning_rate': 1.2, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7535 + / - 0.0049  0.7961 + / - 0.0056
+
+
+ {'n_estimators': 50, 'learning_rate': 1.0, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7536 + / - 0.0027  0.7942 + / - 0.0031
+
+
+ {'n_estimators': 200, 'learning_rate': 0.5, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7532 + / - 0.0022  0.7978 + / - 0.0038
+
+
+ {'n_estimators': 100, 'learning_rate': 1.2, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7539 + / - 0.0033  0.7979 + / - 0.0037
+
+
+ {'n_estimators': 100, 'learning_rate': 0.5, 'algorithm': 'SAMME.R'}
            Model Name             Accuracy           Precision
-0  AdaBoostClassifier  0.8756 + / - 0.0032  0.9168 + / - 0.005
+0  AdaBoostClassifier  0.7521 + / - 0.0029  0.7971 + / - 0.004
 
 
- {'n_estimators': 100, 'learning_rate': 1.4, 'algorithm': 'SAMME.R'}
+ {'n_estimators': 50, 'learning_rate': 0.7, 'algorithm': 'SAMME.R'}
            Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8752 + / - 0.0057  0.9157 + / - 0.0073
+0  AdaBoostClassifier  0.7514 + / - 0.0053  0.7943 + / - 0.0034
 
 
- {'n_estimators': 150, 'learning_rate': 1.4, 'algorithm': 'SAMME'}
+ {'n_estimators': 100, 'learning_rate': 1.0, 'algorithm': 'SAMME'}
            Model Name             Accuracy            Precision
-0  AdaBoostClassifier  0.8746 + / - 0.0032  0.9119 + / - 0.0042
+0  AdaBoostClassifier  0.7489 + / - 0.0047  0.7955 + / - 0.0104
+
+
+ {'n_estimators': 50, 'learning_rate': 0.5, 'algorithm': 'SAMME'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7477 + / - 0.0052  0.8004 + / - 0.0071
+
+
+ {'n_estimators': 150, 'learning_rate': 1.4, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy           Precision
+0  AdaBoostClassifier  0.7528 + / - 0.0033  0.7974 + / - 0.003
+
+
+ {'n_estimators': 50, 'learning_rate': 1.2, 'algorithm': 'SAMME'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7499 + / - 0.0047  0.7961 + / - 0.0072
+
+
+ {'n_estimators': 150, 'learning_rate': 1.2, 'algorithm': 'SAMME'}
+           Model Name             Accuracy           Precision
+0  AdaBoostClassifier  0.7512 + / - 0.0038  0.793 + / - 0.0067
+
+
+ {'n_estimators': 200, 'learning_rate': 1.2, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7532 + / - 0.0024  0.7965 + / - 0.0016
+
+
+ {'n_estimators': 150, 'learning_rate': 1.2, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7534 + / - 0.0065  0.7959 + / - 0.0076
+
+
+ {'n_estimators': 150, 'learning_rate': 1.0, 'algorithm': 'SAMME.R'}
+           Model Name           Accuracy            Precision
+0  AdaBoostClassifier  0.754 + / - 0.005  0.7967 + / - 0.0067
+
+
+ {'n_estimators': 150, 'learning_rate': 1.0, 'algorithm': 'SAMME'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7492 + / - 0.0052  0.7956 + / - 0.0064
+
+
+ {'n_estimators': 150, 'learning_rate': 1.2, 'algorithm': 'SAMME'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7506 + / - 0.0047  0.7972 + / - 0.0057
+
+
+ {'n_estimators': 200, 'learning_rate': 0.5, 'algorithm': 'SAMME'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7487 + / - 0.0028  0.7979 + / - 0.0029
+
+
+ {'n_estimators': 200, 'learning_rate': 0.7, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7539 + / - 0.0061  0.7969 + / - 0.0075
+
+
+ {'n_estimators': 50, 'learning_rate': 1.0, 'algorithm': 'SAMME'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7482 + / - 0.0034  0.7957 + / - 0.0038
+
+
+ {'n_estimators': 200, 'learning_rate': 1.2, 'algorithm': 'SAMME'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7504 + / - 0.0045  0.7931 + / - 0.0053
+
+
+ {'n_estimators': 50, 'learning_rate': 0.5, 'algorithm': 'SAMME'}
+           Model Name             Accuracy           Precision
+0  AdaBoostClassifier  0.7474 + / - 0.0025  0.799 + / - 0.0061
+
+
+ {'n_estimators': 100, 'learning_rate': 1.2, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7527 + / - 0.0025  0.7957 + / - 0.0049
+
+
+ {'n_estimators': 100, 'learning_rate': 0.7, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7529 + / - 0.0032  0.7959 + / - 0.0055
+
+
+ {'n_estimators': 100, 'learning_rate': 1.2, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7534 + / - 0.0034  0.7955 + / - 0.0041
+
+
+ {'n_estimators': 50, 'learning_rate': 0.5, 'algorithm': 'SAMME'}
+           Model Name            Accuracy            Precision
+0  AdaBoostClassifier  0.748 + / - 0.0046  0.7994 + / - 0.0069
+
+
+ {'n_estimators': 50, 'learning_rate': 1.4, 'algorithm': 'SAMME.R'}
+           Model Name            Accuracy            Precision
+0  AdaBoostClassifier  0.7533 + / - 0.006  0.7978 + / - 0.0043
+
+
+ {'n_estimators': 150, 'learning_rate': 1.4, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7532 + / - 0.0031  0.7976 + / - 0.0051
+
+
+ {'n_estimators': 50, 'learning_rate': 1.2, 'algorithm': 'SAMME.R'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7539 + / - 0.0032  0.7928 + / - 0.0037
+
+
+ {'n_estimators': 150, 'learning_rate': 0.7, 'algorithm': 'SAMME'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7482 + / - 0.0033  0.7962 + / - 0.0034
+
+
+ {'n_estimators': 200, 'learning_rate': 0.5, 'algorithm': 'SAMME'}
+           Model Name            Accuracy            Precision
+0  AdaBoostClassifier  0.749 + / - 0.0039  0.7977 + / - 0.0068
+
+
+ {'n_estimators': 150, 'learning_rate': 0.7, 'algorithm': 'SAMME'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7482 + / - 0.0034  0.7962 + / - 0.0039
+
+
+ {'n_estimators': 150, 'learning_rate': 1.0, 'algorithm': 'SAMME'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7489 + / - 0.0044  0.7933 + / - 0.0059
+
+
+ {'n_estimators': 100, 'learning_rate': 0.5, 'algorithm': 'SAMME'}
+           Model Name             Accuracy            Precision
+0  AdaBoostClassifier  0.7478 + / - 0.0035  0.7992 + / - 0.0033
