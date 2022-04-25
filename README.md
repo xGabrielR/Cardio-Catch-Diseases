@@ -270,22 +270,26 @@
 ![boot](https://user-images.githubusercontent.com/75986085/164909015-8117ff1f-b909-4ccc-9478-2aea16b514aa.png)
 
 <h3>5.2. Second Cycle Model Tuning</h3>
-<p>I Using SGD and Ada on Second Cycle Too for tuning on Smoteen and Smotetomek Dataset. But after some tests i prefer to use SGD again to production.</p>
+<p>I Using SGD and Ada on Second Cycle Too for tuning on Smoteen and Smotetomek Dataset. But after some tests i prefer to use ADA to production.</p>
+
+<p>Final ADA Model Performace on Cycle II for Production.</p>
+
+![ada_new](https://user-images.githubusercontent.com/75986085/165006808-9929673a-2dda-445e-b7b5-3a16cb8e5c18.png)
 
 <h4>5.2.1. Calibration Curves</h4>
-<p>The calibration curve of Raw SGD model</p>
+<p>The calibration curve of Raw ADA model</p>
 
+// Under Training.
 
+<p>The calibration curve of Tuned ADA model</p>
 
-<p>The calibration curve of Tuned SGD model</p>
-
-
+![calibrated_ada](https://user-images.githubusercontent.com/75986085/165006855-aa0d7425-c39b-488a-8ecb-0c0ab54da15a.png)
 
 <h4>5.2.2. Confidence Intervals</h4>
 
 <p>The Bootstrap of Tuned Only SGD Model.</p>
 
-
+![raw_ada](https://user-images.githubusercontent.com/75986085/165006883-f71bcd9e-fad3-4cf8-afd4-702b57cdd4ce.png)
 
 <p>I do not selected calibrated + tuned model because on bootstrap eith calibrated + tuned model i get an insignificantly larger error. I only used Tuned Model to Deploy.</p>
 
@@ -300,8 +304,8 @@
 
 At Cross Validation Between ( Mean + / - Std )
 
-1. Accuracy ( 0.7232 + / - 0.0059 )
-2. Precision ( 0.7436 + / - 0.0067 )
+1. Accuracy ( 0.724 + / - 0.0006 )
+2. Precision ( 0.7874 + / - 0.0048)
 
 <h3>6.2. How mutch profit the CCD will earn with this new tool</h3>
 <p>Based on All Dataset (68k Patients).</p>
