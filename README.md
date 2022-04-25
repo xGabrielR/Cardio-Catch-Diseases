@@ -303,7 +303,6 @@ At Cross Validation Between ( Mean + / - Std )
 1. Accuracy ( 0.7232 + / - 0.0059 )
 2. Precision ( 0.7436 + / - 0.0067 )
 
-
 <h3>6.2. How mutch profit the CCD will earn with this new tool</h3>
 <p>Based on All Dataset (68k Patients).</p>
 
@@ -345,7 +344,7 @@ At Cross Validation Between ( Mean + / - Std )
     <td>$ 1,030,590.00</td>
     <td>$ 1,374,120.00</td>
     <td>$ 1,717,650.00</td>
-    <td>$ 2,040,000.00</td>
+    <td>$ --#-- </td>
   </tr>
 </table>
 
@@ -357,7 +356,7 @@ At Cross Validation Between ( Mean + / - Std )
   </tr>
   <tr>
     <td>Model</td>
-    <td>+/- $ 2,040,000.00</td>
+    <td>+/- $ 1,717,650.00</td>
     <td>+/- $ 1,374,120.00</td>
   </tr>
   <tr>
@@ -369,9 +368,9 @@ At Cross Validation Between ( Mean + / - Std )
 
 <h3>6.3. What is the confidence interval of this new tool</h3>
 
-- 25% confidence interval of Model Performace ( 90.13% & 91.57% )
-- 50% confidence interval of Model Performace ( 90.29% & 91.98% )
-- 75% confidence interval of Model Performace ( 89.73% & 92.59% )
+- 25% confidence interval of Model Performace ( xx.xx% & xx.xx% ) # Under Working.
+- 50% confidence interval of Model Performace ( xx.xx% & xx.xx% ) # Under Working.
+- 75% confidence interval of Model Performace ( xx.xx% & xx.xx% ) # Under Working.
 
 <h2>7. Model Deployment</h2>
 <hr>
