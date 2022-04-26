@@ -128,6 +128,7 @@
 
 <p>The Deployment of the model is on Google Sheets, the cardio team can check the probability of the new users on base have or no a 'Cardio Diseases'.</p>
 
+![cardio_diseases_proba](https://user-images.githubusercontent.com/75986085/165198437-919ca29c-8ce5-4d55-b6de-0445dc451c89.gif)
 
 <h3>1.1. First CRISP Cycle</h3>
 
