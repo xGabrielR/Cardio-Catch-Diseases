@@ -383,9 +383,10 @@ At Cross Validation Between ( Mean + / - Std )
 <h2>7. Model Deployment</h2>
 <hr>
 
+<p>The Model is on Google Sheets, because it's a good deploy strategy and it also has a good benefit as for the study of cardiovascular disease cases and checking if the model needs improvement, example, the cardio team like to change the values to study new behaviors and how the model will classify against this new behavior</p>
 <p>This is the step for user use the Model Prediction to make better decisions, i chose to deploy on Heroku and make a JS Request on Google Scripts.</p>
-<p>Under Working.</p>
 
+https://user-images.githubusercontent.com/75986085/165198901-af6ed758-a232-4670-ba62-e02819e035f8.mp4
 
 <h2>x. References</h2>
 <hr>
