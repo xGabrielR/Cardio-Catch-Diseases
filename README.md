@@ -25,26 +25,29 @@
 - [3. Data Preparation](#3-data-preparation)
   - [3.1. Dataset Balance](#31-dataset-balance)
     - [3.1.1. First Cycle](#311-first-cycle)
-    - [3.1.2. Second Cycle](#312-second-cycle)  
+    - [3.1.2. Second Cycle](#312-second-cycle) 
+    - [3.1.3. Third Cycle](#313-third-cycle)  
 
-- [4. Machine Learning Models](#4-machine-learning-models)
+- [4. Embedding Space Study](#4-embedding-space-study)
 
-- [5. Model Tuning](#5-model-tuning)
-  - [5.1. First Cycle Model Tuning](#51-first-cycle-model-tuning)
-    - [5.1.1. Calibration Curves](#511-calibration-curves)
-    - [5.1.2. Confidence Intervals](#512-confidence-intervals) 
-  - [5.2. Second Cycle Model Tuning](52-second-cycle-model-tuning)
-    - [5.2.1. Calibration Curves](#521-calibration-curves)
-    - [5.2.2. Confidence Intervals](#522-confidence-intervals) 
+- [5. Machine Learning Models](#5-machine-learning-models)
 
-- [6. Model Bussiness Results](#6-model-bussiness-results)
-  - [6.1. What is the precision and accuracy of this new tool](#61-what-is-the-precision-and-accuracy-of-this-new-tool) 
-  - [6.2. How mutch profit the CCD will earn with this new tool](#62-how-mutch-profit-the-ccd-will-earn-with-this-new-tool) 
-  - [6.3. What is the confidence interval of this new tool](#63-what-is-the-confidence-interval-of-this-new-tool)
+- [6. Model Tuning](#6-model-tuning)
+  - [6.1. First Cycle Model Tuning](#61-first-cycle-model-tuning)
+    - [6.1.1. Calibration Curves](#611-calibration-curves)
+    - [6.1.2. Confidence Intervals](#612-confidence-intervals) 
+  - [6.2. Second Cycle Model Tuning](62-second-cycle-model-tuning)
+    - [6.2.1. Calibration Curves](#621-calibration-curves)
+    - [6.2.2. Confidence Intervals](#622-confidence-intervals) 
 
-- [7. Model Deployment](#7-model-deployment)
+- [7. Model Bussiness Results](#6-model-bussiness-results)
+  - [7.1. What is the precision and accuracy of this new tool](#71-what-is-the-precision-and-accuracy-of-this-new-tool) 
+  - [7.2. How mutch profit the CCD will earn with this new tool](#72-how-mutch-profit-the-ccd-will-earn-with-this-new-tool) 
+  - [7.3. What is the confidence interval of this new tool](#73-what-is-the-confidence-interval-of-this-new-tool)
 
-- [x. References](#x-references)
+- [8. Model Deployment](#8-model-deployment)
+
+- [9. References](#9-references)
 
 ---
 
@@ -164,6 +167,16 @@
   </dl>
 </ul>
 
+<h3>3.1.3. Third Cycle</h3>
+
+<ul>
+  <dl>
+    <dt>Feature Space Study.</dt>
+      <dd>In this new cycle, i have try some Embedding spaces using UMAP, PCA, tSNE and Tree-Based Embedding.</dt>
+      <dd>In this step, I used all the datasets that I had created previously, like the entire dataset, Smoteen and Smotetomeklinks dataset, to analyze all these data behaviors with different tools.</dd>
+  </dl>
+</ul>
+
 
 <h2>2. Exploratory Data Analysis</h2>
 <hr>
@@ -221,7 +234,17 @@
 ![dataset_balance](https://user-images.githubusercontent.com/75986085/164985257-bb1178e7-6fd5-497c-a930-93fccd98ebca.png)
 
 
-<h2>4. Machine Learning Models</h2>
+<h2>4. Embedding Space Study</h2>
+<hr>
+
+<p>The Feature Space study or Embedding study, in this step i have dedicated a complete Cycle, the Third Cycle, to analyze all data behaviors with different datasets that i have already created the Smoteen Dataset, Smotetomeklinks Dataset and Full Dataset with diferent tools and methods.</p>
+<p>For Rescaling i used Both, StandardScaler and MinMaxScaler to analyze this differences.</p>
+<p>With this both Rescaling methods i performed the Umap, tSNE, PCA and Tree-Based Embedding on all Three Datasets, you can check the Notebook of Third Cycle to see the different behaviors.</p>
+<p>I'm not going to share all the spaces in the README so as not to make it too big.</p>
+
+![pca_tree_based_embedding_smoteen_dataset](https://user-images.githubusercontent.com/75986085/165412167-2327e719-9d3e-4276-a9e4-c0541bae1e1c.gif)
+
+<h2>5. Machine Learning Models</h2>
 <hr>
 
 ![models](https://user-images.githubusercontent.com/75986085/163059972-193109c1-bca2-4b89-ad43-9276d6848b5b.png)
@@ -243,12 +266,12 @@
    <p>First time trained AdaBoost.</p>
 </ul>
 
-<h2>5. Model Tuning</h2>
+<h2>6. Model Tuning</h2>
 <hr>
 
 <p>This is the principal step on this Data Science Project, because, there aren't many ways to create features or collect new data, so a very very *very* detailed data preparation and a good tuning in these cases is very important.</p>
 
-<h3>5.1. First Cycle Model Tuning</h3>
+<h3>6.1. First Cycle Model Tuning</h3>
 <p>For First Cycle i used SGD and Ada Boosting for Tuning, because Ada have great performace and SGD is a ""linear model"" with linear coeficients. But after tuning, i chosed the SGD because he is it is much lighter on HD than ada, '5Kb' of Disk Space.</p>
 
 ![tuned](https://user-images.githubusercontent.com/75986085/164907644-5b0c314a-113a-4eaf-adce-66d6383ec3b7.png)
@@ -259,7 +282,7 @@
 
 <p>On Cross Validation the model have a good performace (Precision).</p>
 
-<h4>5.1.1. Calibration Curves</h4>
+<h4>6.1.1. Calibration Curves</h4>
 <p>This step is after tuning the model, to calibrate the super and sub estimation adjustments.</p>
 
 ![cali](https://user-images.githubusercontent.com/75986085/164909008-ffd120d9-fd0f-4477-97f0-8c5f1384c20f.png)
@@ -268,19 +291,19 @@
 
 ![final_model](https://user-images.githubusercontent.com/75986085/164909033-6786535f-4306-4695-852a-b6c888986f00.png)
 
-<h4>5.1.2. Confidence Intervals</h4>
+<h4>6.1.2. Confidence Intervals</h4>
 <p>This is the last step of the step of tuning the machine learning model, in this step the confidence intervals are calculated using a ready-made formula from MachineLearningMastery</p>
 
 ![boot](https://user-images.githubusercontent.com/75986085/164909015-8117ff1f-b909-4ccc-9478-2aea16b514aa.png)
 
-<h3>5.2. Second Cycle Model Tuning</h3>
+<h3>6.2. Second Cycle Model Tuning</h3>
 <p>I Using SGD and Ada on Second Cycle Too for tuning on Smoteen and Smotetomek Dataset. But after some tests i prefer to use ADA to production.</p>
 
 <p>Final ADA Model Performace on Cycle II for Production.</p>
 
 ![ada_new](https://user-images.githubusercontent.com/75986085/165006808-9929673a-2dda-445e-b7b5-3a16cb8e5c18.png)
 
-<h4>5.2.1. Calibration Curves</h4>
+<h4>6.2.1. Calibration Curves</h4>
 <p>The calibration curve of Raw ADA model</p>
 
 ![calibrated_ada_bootstrap](https://user-images.githubusercontent.com/75986085/165102550-0988868d-758b-43be-9ca6-b357b837f2be.png)
@@ -289,7 +312,7 @@
 
 ![calibrated_ada](https://user-images.githubusercontent.com/75986085/165006855-aa0d7425-c39b-488a-8ecb-0c0ab54da15a.png)
 
-<h4>5.2.2. Confidence Intervals</h4>
+<h4>6.2.2. Confidence Intervals</h4>
 
 <p>The Bootstrap of Tuned Only ADA Model.</p>
 
@@ -297,14 +320,14 @@
 
 <p>I do not selected calibrated + tuned model because on bootstrap eith calibrated + tuned model i get an insignificantly larger error. I only used Tuned Model to Deploy.</p>
 
-<h2>6. Model Bussiness Results</h2>
+<h2>7. Model Bussiness Results</h2>
 <p>Need to answer the Questions</p>
 
 > 1. *What is the precision and accuracy of this new tool?*
 > 2. *How mutch profit the Cardio Catch Diseases will earn with this new tool?* 
 > 3. *What is the confidence interval of this new tool?*
 
-<h3>6.1. What is the precision and accuracy of this new tool</h3>
+<h3>7.1. What is the precision and accuracy of this new tool</h3>
 
 At Cross Validation Between ( Mean + / - Std )
 
@@ -374,13 +397,13 @@ At Cross Validation Between ( Mean + / - Std )
   </tr>
 </table>
 
-<h3>6.3. What is the confidence interval of this new tool</h3>
+<h3>7.3. What is the confidence interval of this new tool</h3>
 
 - **25%** confidence interval of Model Performace **( 77.81%  &  78.34% )**
 - **50%** confidence interval of Model Performace **( 77.44%  &  78.59% )**
 - **75%** confidence interval of Model Performace **( 77.02%  &  78.95% )**
 
-<h2>7. Model Deployment</h2>
+<h2>8. Model Deployment</h2>
 <hr>
 
 <p>The Model is on Google Sheets, because it's a good deploy strategy and it also has a good benefit as for the study of cardiovascular disease cases and checking if the model needs improvement, example, the cardio team like to change the values to study new behaviors and how the model will classify against this new behavior</p>
@@ -388,7 +411,7 @@ At Cross Validation Between ( Mean + / - Std )
 
 https://user-images.githubusercontent.com/75986085/165198901-af6ed758-a232-4670-ba62-e02819e035f8.mp4
 
-<h2>x. References</h2>
+<h2>9. References</h2>
 <hr>
 
 <ul>
