@@ -151,6 +151,24 @@ class Utils():
             ax[k[0]].set_ylabel(k[2])
 
         return None
+    
+    def plot_scatter_sys(df, ranges):
+        fig, ax = plt.subplots(ranges[0], ranges[1], figsize=(20, 30))
+        ax = ax.flatten()
+        for c, i in zip(df.columns.tolist(), range(len(df.columns))):
+            sns.scatterplot(x=c, y='systolic', ax=ax[i], hue='cardio', data=df);
+            ax[i].set_title(c + ' systolic')
+
+        return None
+
+    def plot_scatter_dia(df, ranges):
+        fig, ax = plt.subplots(ranges[0], ranges[1], figsize=(20, 30))
+        ax = ax.flatten()
+        for c, i in zip(df.columns.tolist(), range(len(df.columns))):
+            sns.scatterplot(x=c, y='diastolic', ax=ax[i], hue='cardio', data=df);
+            ax[i].set_title(c + ' diastolic')
+
+        return None
 
     def plot_hist(self, df, ranges, msk):
         fig, ax = plt.subplots(ranges[0], ranges[1], figsize=(20, 30))
