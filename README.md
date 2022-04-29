@@ -133,6 +133,8 @@
 
 ![cardio_diseases_proba](https://user-images.githubusercontent.com/75986085/165198437-919ca29c-8ce5-4d55-b6de-0445dc451c89.gif)
 
+<a href="https://github.com/xGabrielR/Cardio-Catch-Diseases/blob/main/Documenta%C3%A7%C3%A3o%20PT-BR.pdf">Full Documentation PT-BR</a>
+
 <h3>1.1. First CRISP Cycle</h3>
 
 <ul>
