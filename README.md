@@ -5,7 +5,7 @@
 <h2>Summary</h2>
 <hr>
 
-- [0. Bussiness Problem](#0-bussiness-problem)
+- [0. Business Problem](#0-bussiness-problem)
   - [0.1. What is a Service](#01-what-is-a-service)
   - [0.2. What is Cardiovascular Diseases](#02-what-is-cardiovascular-diseases)
     - [0.2.1. Heart Attack](#021-heart-attack) 
@@ -51,7 +51,7 @@
 
 ---
 
-<h2>0. Bussiness Problem</h2>
+<h2>0. Business Problem</h2>
 <hr>
 <p><i>Cadio Catch Diseases is a company specializing in early-stage heart disease detection. Its business model is of the service type, that is, the company offers the early diagnosis of a cardiovascular disease for a certain price.</i></p>
 
